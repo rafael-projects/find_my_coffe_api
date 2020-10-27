@@ -13,5 +13,5 @@ end
 
 
 
-json.ratings_count @store.ratings.ratings_count
+json.ratings_count @store.ratings.count
 json.ratings_average @store.ratings_average

@@ -36,4 +36,6 @@ ActiveRecord::Schema.define(version: 2020_10_23_220532) do
     t.index ["lonlat"], name: "index_stores_on_lonlat", using: :gist
   end
 
+  add_foreing_key "ratings", "stores"
+
 end
